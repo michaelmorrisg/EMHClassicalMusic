@@ -1,0 +1,53 @@
+.banner-main{
+    margin: 0px auto;
+    margin-top: 10px;
+}
+.banner-content {
+    width: 80%;
+    margin: 0px auto;
+}
+#one {
+    width: 100%;
+    height: 600px;
+    background-color: 	#303030;
+    background-image: url('https://f4.bcbits.com/img/a2606312365_10.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#two {
+    width: 100%;
+    height: 600px;
+    background-color: 	#303030;
+    background-image: url('https://f4.bcbits.com/img/a2285530605_10.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#three {
+    width: 100%;
+    height: 600px;
+    background-color: 	#303030;
+    background-image: url('https://f4.bcbits.com/img/a3777569265_10.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#four {
+    width: 100%;
+    height: 600px;
+    background-color: 	#303030;
+    background-image: url('https://f4.bcbits.com/img/a1170039747_10.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#five {
+    width: 100%;
+    height: 600px;
+    background-color: 	#303030;
+    background-image: url('https://f4.bcbits.com/img/a1048958061_10.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

@@ -7,7 +7,7 @@ class About extends Component{
         return(
             <div className="about-main">
                 <div className="about-content">
-                <h1>About</h1>
+                <h1 className="page-header">About</h1>
                 <p>
                 The EMH Classical Music was created with the belief that there could be better recordings of the world’s classical music. The creator, Ted Hinckley, has two decades of experience as a music producer, editor and scoring supervisor working on more than 100 full-length feature films as well as 20 IMAX productions.We have taken the techniques of modern film scoring and brought them to classical music.
                 </p>
@@ -27,7 +27,7 @@ class About extends Component{
                 The EMH Classical Music is adding brand new recordings all the time. It is our goal to make the best new recordings of classical music.  We function as a classical music record label and as a classical music library represented worldwide via licensing powerhouse Warner/Chappell Production Music. 
                 </p>
                 <p>
-                For more information, contact Ted Hinckley at EMH Classical Music at ted@emhclassicalmusic.com or 310-489-8964 .
+                For more information, contact Ted Hinckley at EMH Classical Music at ted@emhclassicalmusic.com or 310-489-8964.
                 </p>
                 </div>
             </div>

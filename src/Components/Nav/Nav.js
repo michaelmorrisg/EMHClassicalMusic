@@ -21,10 +21,10 @@ class Nav extends Component{
                         <li className="mouse" onMouseEnter={()=>this.setState({expanded: true})} onMouseLeave={()=>this.setState({expanded: false})}>Streaming</li>
                         <div className={this.state.expanded ? "streaming showing" : ' streaming hidden'} onMouseEnter={()=>this.setState({expanded: true})} onMouseLeave={()=>this.setState({expanded: false})}>
                             <ul>
-                                <li>Spotify</li>
-                                <li>Apple Music</li>
-                                <li>Google Play</li>
-                                <li>Something Else</li>
+                                <li><a href="https://spotify.com">Spotify</a></li>
+                                <li><a href="https://apple.com">Apple Music</a></li>
+                                <li><a href="https://google.com">Google Play</a></li>
+                                <li><a href="https://spotify.com">Something Else</a></li>
                             </ul>
                         </div>
                     </ul>

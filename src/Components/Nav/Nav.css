@@ -38,4 +38,31 @@ a {
     display: flex;
     width: 37%;
     justify-content: space-between;
+    position: relative;
+}
+.showing {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+}
+.hidden {
+    display: none;
+}
+.streaming {
+    height: 140px;
+    width: 150px;
+    background-color: rgba(255,255,255,.8);
+    z-index: 2;
+    position: absolute;
+    right: -30px;
+    top: 23px;
+    padding-top: 15px;
+
+}
+.streaming > ul {
+    display: flex;
+    flex-direction: column;
+}
+.streaming > ul > li {
+    line-height: 1.75em;
 }

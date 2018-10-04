@@ -51,3 +51,8 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+.doggo {
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+}

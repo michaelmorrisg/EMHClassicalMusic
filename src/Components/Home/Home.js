@@ -9,6 +9,7 @@ class Home extends Component {
             <div className="home-main">
                 <Banner />
                 <h1 className="home-title">EMH Classical Music</h1>
+                
             </div>
         )
     }

@@ -4,6 +4,12 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
 class Banner extends Component {
+    constructor(){
+        super()
+        this.state = {
+            picId: 'one'
+        }
+    }
 
 
     render(){
@@ -28,6 +34,8 @@ class Banner extends Component {
                     
                 </div>
                 </Carousel>
+                {/* <div id={this.state.picId}>
+                </div> */}
                 </div>
             </div>
         )

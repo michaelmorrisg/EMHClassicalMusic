@@ -1,9 +1,37 @@
 .home-main {
-    height: 150vh;
+    height: 180vh;
 }
 .home-title {
-    font-size: 50px;
+    font-size: 70px;
+}
+.home-sub {
+    font-size: 30px;
+    margin-top: 5px;
 }
 .difference-main {
     display: flex;
+    width: 100%;
+    margin: 0px auto;
+    height: 30vh;
+}
+.difference-left {
+    width: 40%;
+    background-color:#888888;
+    height: 100%;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.difference-right {
+    width: 60%;
+    font-size: 25px;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+.banner-title {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

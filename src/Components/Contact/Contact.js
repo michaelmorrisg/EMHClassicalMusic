@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import axios from 'axios'
+import './Contact.css'
 
 class Contact extends Component {
     constructor(){
@@ -39,7 +40,7 @@ class Contact extends Component {
 
     render(){
         return (
-            <div>
+            <div className="contact-main">
                 <input placeholder="name" value={this.state.name} onChange={(e)=>{this.handleName(e.target.value)}}/>
                 <input placeholder="email" value={this.state.email} onChange={(e)=>{this.handleEmail(e.target.value)}}/>
                 <textarea placeholder="message" value={this.state.text} onChange={(e)=>{this.handleText(e.target.value)}}/>

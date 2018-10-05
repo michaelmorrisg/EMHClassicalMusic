@@ -1,6 +1,9 @@
 .home-main {
-    height: 100vh;
+    height: 150vh;
 }
 .home-title {
     font-size: 50px;
+}
+.difference-main {
+    display: flex;
 }

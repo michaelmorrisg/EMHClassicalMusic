@@ -3,6 +3,9 @@ import Banner from '../Banner/Banner'
 import "./Home.css"
 import Contact from '../Contact/Contact'
 import SongList from '../SongList/SongList'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faGooglePlay, faItunes, faSpotify, faBandcamp} from '@fortawesome/free-brands-svg-icons'
 
 class Home extends Component {
 
@@ -25,6 +28,22 @@ class Home extends Component {
                 </div>
                 </div>
                 <SongList />
+                <div className="albums-main">
+                    <div className="albums-left">
+                        <h2>Stream</h2>
+                        <div>
+                            <FontAwesomeIcon icon={faGooglePlay} size="2x"/>
+                            <FontAwesomeIcon icon={faSpotify} size="2x"/>
+                            <FontAwesomeIcon icon={faItunes} size="2x"/>
+                        </div>
+                    </div>
+                    <div className="albums-right">
+                    <h2>Buy</h2>
+                        <div>
+                            <FontAwesomeIcon icon={faBandcamp} size="2x"/>
+                        </div>
+                    </div>
+                </div>
                 <Contact />
             </div>
         )

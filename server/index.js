@@ -27,7 +27,7 @@ app.post('/api/sendEmail',(req,res)=>{
         var mailOptions = {
             from: req.body.email,
             to: 'michaelmorrisg@gmail.com',
-            subject: `Message from ${req.body.name}`,
+            subject: `Message from ${req.body.name} at ${req.body.email}`,
             text: req.body.text
         }
         transporter.sendMail(mailOptions, function(error, info){

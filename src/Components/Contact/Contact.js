@@ -41,10 +41,17 @@ class Contact extends Component {
     render(){
         return (
             <div className="contact-main">
-                <input placeholder="name" value={this.state.name} onChange={(e)=>{this.handleName(e.target.value)}}/>
-                <input placeholder="email" value={this.state.email} onChange={(e)=>{this.handleEmail(e.target.value)}}/>
-                <textarea placeholder="message" value={this.state.text} onChange={(e)=>{this.handleText(e.target.value)}}/>
-                <button onClick={()=>{this.sendEmail()}}>Send</button>
+                <div>
+                    <h2 className="page-header">Contact Us</h2>
+                </div>
+                <div className="contact-background">
+                    <div className="contact-form">
+                        <input placeholder="name" value={this.state.name} onChange={(e)=>{this.handleName(e.target.value)}}/>
+                        <input placeholder="email" value={this.state.email} onChange={(e)=>{this.handleEmail(e.target.value)}}/>
+                        <textarea rows="8" placeholder="message" value={this.state.text} onChange={(e)=>{this.handleText(e.target.value)}}/>
+                        <button onClick={()=>{this.sendEmail()}}>Send</button>
+                    </div>
+                </div>
             </div>
         )
     }

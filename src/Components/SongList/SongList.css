@@ -2,8 +2,23 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: skyblue;
+    background-color: #adc401;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.song-main {
+    display: flex;
+    width: 80%;
+    height: 20vh;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+.song-main > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.song-main > div > p {
+    margin-bottom: 0px;
 }

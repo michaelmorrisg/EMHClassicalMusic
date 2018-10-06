@@ -1,5 +1,5 @@
 .home-main {
-    height: 180vh;
+    height: 220vh;
 }
 .home-title {
     font-size: 70px;
@@ -28,10 +28,26 @@
     font-size: 25px;
     height: 100%;
     background-color: #F5F5F5;
+    padding-left: 30px;
 }
 .banner-title {
-    height: 20vh;
+    height: 25vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.albums-main {
+    display: flex;
+    width: 100%;
+    height: 20vh;
+}
+.albums-left {
+    width: 60%;
+    background-color: #F5F5F5;
+    font-size: 40px;
+}
+.albums-right {
+    width: 40%;
+    background-color:#888888;
+    font-size: 40px;
 }

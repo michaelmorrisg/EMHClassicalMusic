@@ -1,14 +1,24 @@
 .banner-main{
     margin: 0px auto;
     margin-top: 10px;
+    width: 100%;
+    height: 63vh;
 }
 .banner-content {
     width: 100%;
     margin: 0px auto;
+    display: flex;
+}
+.banner-left {
+    width: 50%;
+    background-color: #303030;
+}
+.banner-right {
+    width: 50%;
 }
 #one {
     width: 100%;
-    height: 500px;
+    height: 65vh;
     background-color: 	#303030;
     background-image: url('https://f4.bcbits.com/img/a2606312365_10.jpg');
     background-position: center;
@@ -17,7 +27,7 @@
 }
 #two {
     width: 100%;
-    height: 500px;
+    height: 65vh;
     background-color: 	#303030;
     background-image: url('https://f4.bcbits.com/img/a2285530605_10.jpg');
     background-position: center;
@@ -26,7 +36,7 @@
 }
 #three {
     width: 100%;
-    height: 500px;
+    height: 65vh;
     background-color: 	#303030;
     background-image: url('https://f4.bcbits.com/img/a3777569265_10.jpg');
     background-position: center;
@@ -35,7 +45,7 @@
 }
 #four {
     width: 100%;
-    height: 500px;
+    height: 65vh;
     background-color: 	#303030;
     background-image: url('https://f4.bcbits.com/img/a1170039747_10.jpg');
     background-position: center;
@@ -44,7 +54,7 @@
 }
 #five {
     width: 100%;
-    height: 500px;
+    height: 65vh;
     background-color: 	#303030;
     background-image: url('https://f4.bcbits.com/img/a1048958061_10.jpg');
     background-position: center;

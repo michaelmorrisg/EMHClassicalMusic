@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import Banner from '../Banner/Banner'
+import BannerTitle from '../BannerTitle/BannerTitle'
 import "./Home.css"
 import Contact from '../Contact/Contact'
 import SongList from '../SongList/SongList'
@@ -13,10 +14,7 @@ class Home extends Component {
         return(
             <div className="home-main">
                 <Banner />
-                <div className="banner-title">
-                <h1 className="home-title">EMH Classical Music</h1>
-                <h3 className="home-sub">Classics of the past, Recorded for the future</h3>
-                </div>
+                <BannerTitle />
                 <div className="difference-main">
                 <div className="difference-left">
                 <h2>Hear the difference</h2>

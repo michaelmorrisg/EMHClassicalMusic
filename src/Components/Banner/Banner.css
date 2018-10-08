@@ -62,6 +62,9 @@
     height: 30%;
     width: calc(100% - 2px);
 }
+.banner-buy:hover a {
+    color: white;
+}
 .banner-top-back {
     background-color: #303030;
     height: 50%;

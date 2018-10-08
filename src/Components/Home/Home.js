@@ -29,7 +29,7 @@ class Home extends Component {
                 <div className="albums-main">
                     <div className="albums-left">
                         <h2>Stream</h2>
-                        <div>
+                        <div className="banner-icons">
                             <FontAwesomeIcon icon={faGooglePlay} size="2x"/>
                             <FontAwesomeIcon icon={faSpotify} size="2x"/>
                             <FontAwesomeIcon icon={faItunes} size="2x"/>

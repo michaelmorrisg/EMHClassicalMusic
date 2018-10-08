@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 144 33">
+  <defs>
+    <style>
+      .deezer-svg-1 {
+        fill: none;
+      }
+
+      .deezer-svg-2 {
+        fill: #eb312b;
+      }
+
+      .deezer-svg-3 {
+        fill: #f08e7a;
+      }
+
+      .deezer-svg-4 {
+        fill: #fbdc00;
+      }
+
+      .deezer-svg-5 {
+        fill: #d63694;
+      }
+
+      .deezer-svg-6 {
+        fill: #e3a0c7;
+      }
+
+      .deezer-svg-7 {
+        fill: #bad532;
+      }
+
+      .deezer-svg-8 {
+        fill: #dcde7f;
+      }
+
+      .deezer-svg-9 {
+        fill: #30b5e4;
+      }
+
+      .deezer-svg-10 {
+        fill: #acd3e4;
+      }
+
+      .deezer-svg-11 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="deezer-svg-1" x="-0.19" y="-1.06" width="144.37" height="35.13"/>
+    </clipPath>
+  </defs>
+  <title>deezer</title>
+  <g id="deezer">
+    <rect class="deezer-svg-2" x="0.91" y="29.48" width="9.45" height="2.87"/>
+    <rect class="deezer-svg-2" x="0.91" y="25.76" width="9.45" height="2.87"/>
+    <rect class="deezer-svg-2" x="0.91" y="22.04" width="9.45" height="2.87"/>
+    <rect class="deezer-svg-3" x="0.91" y="18.32" width="9.45" height="2.86"/>
+    <rect class="deezer-svg-3" x="0.91" y="14.59" width="9.45" height="2.86"/>
+    <rect class="deezer-svg-4" x="11.5" y="29.48" width="9.45" height="2.87"/>
+    <rect class="deezer-svg-4" x="11.5" y="25.76" width="9.45" height="2.87"/>
+    <rect class="deezer-svg-4" x="11.5" y="22.04" width="9.45" height="2.87"/>
+    <rect class="deezer-svg-5" x="22.1" y="29.48" width="9.45" height="2.87"/>
+    <rect class="deezer-svg-5" x="22.1" y="25.76" width="9.45" height="2.87"/>
+    <rect class="deezer-svg-5" x="22.1" y="22.04" width="9.45" height="2.87"/>
+    <rect class="deezer-svg-6" x="22.1" y="18.32" width="9.45" height="2.86"/>
+    <rect class="deezer-svg-6" x="22.1" y="14.59" width="9.45" height="2.86"/>
+    <rect class="deezer-svg-6" x="22.1" y="10.87" width="9.45" height="2.87"/>
+    <rect class="deezer-svg-6" x="22.1" y="7.14" width="9.45" height="2.87"/>
+    <rect class="deezer-svg-7" x="32.7" y="29.48" width="9.45" height="2.87"/>
+    <rect class="deezer-svg-7" x="32.7" y="25.76" width="9.45" height="2.87"/>
+    <rect class="deezer-svg-7" x="32.7" y="22.04" width="9.45" height="2.87"/>
+    <rect class="deezer-svg-8" x="32.7" y="18.32" width="9.45" height="2.86"/>
+    <rect class="deezer-svg-8" x="32.7" y="14.59" width="9.45" height="2.86"/>
+    <rect class="deezer-svg-9" x="43.3" y="29.48" width="9.45" height="2.87"/>
+    <rect class="deezer-svg-9" x="43.3" y="25.76" width="9.45" height="2.87"/>
+    <rect class="deezer-svg-9" x="43.3" y="22.04" width="9.45" height="2.87"/>
+    <rect class="deezer-svg-10" x="43.3" y="18.31" width="9.45" height="2.87"/>
+    <rect class="deezer-svg-10" x="43.3" y="14.59" width="9.45" height="2.87"/>
+    <rect class="deezer-svg-10" x="43.3" y="10.87" width="9.45" height="2.86"/>
+    <rect class="deezer-svg-10" x="43.3" y="7.14" width="9.45" height="2.86"/>
+    <rect class="deezer-svg-10" x="43.3" y="3.42" width="9.45" height="2.87"/>
+    <g class="deezer-svg-11">
+      <path d="M56.48.55h7.08c7.14,0,7.81,2.5,7.81,11.75v9.45c0,8.15-1.64,10.6-8.59,10.6h-6.3Zm4.29,28.1H63c3.26,0,3.8-1.72,3.8-7.18V10.55c0-4.71-.41-6.3-4.15-6.3H60.77Z"/>
+      <polygon points="73.09 0.55 85.12 0.55 85.12 4.33 77.39 4.33 77.39 14.3 84.55 14.3 84.55 18.03 77.39 18.03 77.39 28.57 85.12 28.57 85.12 32.35 73.09 32.35 73.09 0.55"/>
+      <polygon points="86.84 0.55 98.87 0.55 98.87 4.33 91.14 4.33 91.14 14.3 98.3 14.3 98.3 18.03 91.14 18.03 91.14 28.57 98.87 28.57 98.87 32.35 86.84 32.35 86.84 0.55"/>
+      <polygon points="116.34 0.55 128.38 0.55 128.38 4.33 120.64 4.33 120.64 14.3 127.8 14.3 127.8 18.03 120.64 18.03 120.64 28.57 128.38 28.57 128.38 32.35 116.34 32.35 116.34 0.55"/>
+      <polygon points="100.59 28.63 110.49 4.28 100.59 4.28 100.59 0.56 114.63 0.56 114.63 4.28 104.9 28.63 114.63 28.63 114.63 32.35 100.59 32.35 100.59 28.63"/>
+      <path d="M130.1.55H137c6.43,0,6.88,1.64,6.88,8.6,0,4.27-.4,6.36-4,7.46,3,.31,4,1.87,4,4.86v6.92a20.39,20.39,0,0,0,.27,4h-4.3c-.44-.79-.28-1.57-.28-2.85V22.32c0-3-.57-3.72-3.48-3.72h-1.68V32.35H130.1Zm4.29,14h1.33c3.48,0,4-.43,4-5.18s-.42-5.13-3.15-5.13h-2.19Z"/>
+    </g>
+  </g>
+</svg>

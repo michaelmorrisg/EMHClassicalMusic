@@ -24,7 +24,8 @@ class Nav extends Component{
                                 <li><a href="https://open.spotify.com/album/5Pkgb0P3Sh9TPl14IBsyE2">Spotify</a></li>
                                 <li><a href="https://itunes.apple.com/us/album/christmas-a-la-vivaldi/1434635644">iTunes</a></li>
                                 <li><a href="https://play.google.com/store/music/album/EMH_Classical_Music_Czech_Symphony_Chamber_Group_C?id=Bzq2myrbhfvdheb6i7b6a53yqfu&hl=en">Google Play</a></li>
-                                <li><a href="https://spotify.com">Something Else</a></li>
+                                <li><a href="https://spotify.com">Deezer</a></li>
+                                <li><a href="https://spotify.com">Amazon Music</a></li>
                             </ul>
                         </div>
                     </ul>

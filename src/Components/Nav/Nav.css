@@ -49,7 +49,7 @@ a {
     display: none;
 }
 .streaming {
-    height: 140px;
+    height: 170px;
     width: 150px;
     background-color: rgba(255,255,255,.8);
     z-index: 2;

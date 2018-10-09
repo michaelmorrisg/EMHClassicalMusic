@@ -29,16 +29,22 @@ class Home extends Component {
                 <div className="albums-main">
                     <div className="albums-left">
                         <h2>Stream</h2>
-                        <div className="banner-icons">
-                            <FontAwesomeIcon icon={faGooglePlay} size="2x"/>
-                            <FontAwesomeIcon icon={faSpotify} size="2x"/>
-                            <FontAwesomeIcon icon={faItunes} size="2x"/>
-                        </div>
+                        <div className="banner-stream-icons-lower">
+                                <div className="top-row">
+                                    <a href=""><img src={require('../../Assets/apple_music.svg')}/></a>
+                                    <a href=""><img src={require('../../Assets/google_play.svg')}/></a>
+                                    <a href=""><img src={require('../../Assets/spotify.svg')}/></a>
+                                </div>
+                                <div className="bottom-row">
+                                    <a href=""><img src={require('../../Assets/deezer.svg')}/></a>
+                                    <a href=""><img src={require('../../Assets/amazon_music.svg')}/></a>
+                                </div>
+                            </div>
                     </div>
                     <div className="albums-right">
                     <h2>Buy</h2>
                         <div>
-                            <FontAwesomeIcon icon={faBandcamp} size="2x"/>
+                            <a href=""><img className="bandcamp-logo" src={require('../../Assets/bandcamp.svg')}/></a>
                         </div>
                     </div>
                 </div>

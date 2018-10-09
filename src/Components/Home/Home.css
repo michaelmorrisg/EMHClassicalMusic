@@ -1,5 +1,5 @@
 .home-main {
-    height: 220vh;
+    height: 240vh;
 }
 .home-title {
     font-size: 70px;
@@ -12,16 +12,20 @@
     display: flex;
     width: 100%;
     margin: 0px auto;
-    height: 30vh;
+    height: 20vh;
 }
 .difference-left {
     width: 40%;
-    background-color:#888888;
+    background-color:#303030;
+    color: white;
     height: 100%;
     font-size: 40px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+}
+.difference-left > h2 {
+    margin-top: 2vh;
 }
 .difference-right {
     width: 60%;
@@ -29,6 +33,9 @@
     height: 100%;
     background-color: #F5F5F5;
     padding-left: 30px;
+}
+.difference-right > p {
+    font-size: 25px;
 }
 .banner-title {
     height: 25vh;
@@ -39,15 +46,25 @@
 .albums-main {
     display: flex;
     width: 100%;
-    height: 20vh;
+    height: 38vh;
 }
 .albums-left {
-    width: 60%;
+    width: 70%;
     background-color: #F5F5F5;
     font-size: 40px;
+    height: 38vh;
+    padding-top: 2vh;
 }
 .albums-right {
-    width: 40%;
+    width: 30%;
     background-color:#888888;
     font-size: 40px;
+    height: 38vh;
+    padding-top: 2vh;
+}
+.bandcamp-logo {
+    width: 40%;
+}
+.albums-main h2 {
+    margin-bottom: 30px;
 }

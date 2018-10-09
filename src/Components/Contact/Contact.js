@@ -42,7 +42,7 @@ class Contact extends Component {
         return (
             <div className="contact-main">
                 <div>
-                    <h2 className="page-header">Contact Us</h2>
+                    <h2 className="page-header special-font">Contact Us</h2>
                 </div>
                 <div className="contact-background">
                     <div className="contact-form">

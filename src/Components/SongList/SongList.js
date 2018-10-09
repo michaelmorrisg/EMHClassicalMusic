@@ -46,19 +46,19 @@ class SongList extends Component {
         return (
             <div className="song-main">
                 <div>
-                    <p>We Three Kings</p>
-                    <p>Christmas a la Vivaldi</p>
                     <div className="play-button" onClick={()=>this.playSongOne()}>{!this.state.songOne ? <FontAwesomeIcon icon={faPlay} size="2x" color='black'/> : <FontAwesomeIcon icon={faPause} size="2x" color='black'/> }</div>
+                    <p>We Three Kings</p>
+                    <p className="italic">Christmas a la Vivaldi</p>
                 </div>
                 <div>
-                    <p>Ma Vlast: Moldu</p>
-                    <p>A Trip To Prague</p>
                     <div className="play-button" onClick={()=>this.playSongTwo()}>{!this.state.songTwo ? <FontAwesomeIcon icon={faPlay} size="2x" color='black'/> : <FontAwesomeIcon icon={faPause} size="2x" color='black'/> }</div>
+                    <p>Ma Vlast: Moldau</p>
+                    <p className="italic">A Trip To Prague</p>
                 </div>
                 <div>
-                    <p>Carmen Overture</p>
-                    <p>Epic Orchestra</p>
                     <div className="play-button" onClick={()=>this.playSongThree()}>{!this.state.songThree ? <FontAwesomeIcon icon={faPlay} size="2x" color='black'/> : <FontAwesomeIcon icon={faPause} size="2x" color='black'/> }</div>
+                    <p>Carmen Overture</p>
+                    <p className="italic">Epic Orchestra</p>
                 </div>
             </div>
         )

@@ -1,8 +1,8 @@
 .home-main {
-    height: 240vh;
+    height: 255vh;
 }
 .home-title {
-    font-size: 70px;
+    font-size: 60px;
 }
 .home-sub {
     font-size: 30px;
@@ -13,15 +13,15 @@
     width: 100%;
     margin: 0px auto;
     height: 20vh;
+    margin-top: 3vh;
 }
 .difference-left {
     width: 40%;
-    background-color:#303030;
-    color: white;
+    background-color:#B8B8B8;
     height: 100%;
     font-size: 40px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 }
 .difference-left > h2 {
@@ -31,14 +31,18 @@
     width: 60%;
     font-size: 25px;
     height: 100%;
-    background-color: #F5F5F5;
-    padding-left: 30px;
+    background-color: #B8B8B8;
 }
 .difference-right > p {
-    font-size: 25px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 20px;
+    padding-left: 30px;
+    margin-top: 10px;
+    border-left: 2px solid black;
 }
 .banner-title {
-    height: 25vh;
+    font-family: 'Overpass', sans-serif;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,25 +50,27 @@
 .albums-main {
     display: flex;
     width: 100%;
-    height: 38vh;
+    height: 42vh;
+    margin-top: 8vh;
 }
 .albums-left {
     width: 70%;
     background-color: #F5F5F5;
     font-size: 40px;
-    height: 38vh;
+    height: 42vh;
     padding-top: 2vh;
 }
 .albums-right {
     width: 30%;
     background-color:#888888;
     font-size: 40px;
-    height: 38vh;
+    height: 42vh;
     padding-top: 2vh;
 }
 .bandcamp-logo {
     width: 40%;
 }
 .albums-main h2 {
-    margin-bottom: 30px;
+    margin-bottom: 10vh;
+    font-family: 'Overpass Mono', monospace;
 }

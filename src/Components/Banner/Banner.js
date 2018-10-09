@@ -11,6 +11,7 @@ class Banner extends Component {
         this.state = {
             picId: 'one',
             arr: ['one', 'two', 'three', 'four', 'five'],
+            white: false
         }
     }
 
@@ -23,7 +24,7 @@ class Banner extends Component {
                 <div className="banner-content">
                 <div className="banner-left">
                 <div className="banner-stream">
-                        <div className="stream-content">
+                        <div className="stream-content" onMouseEnter={()=>this.setState({white: true})} onMouseLeave={()=>this.setState({white:false})}>
                             <div>
                                 <h1>Stream Now</h1>
                             </div>
@@ -32,13 +33,13 @@ class Banner extends Component {
                                 <FontAwesomeIcon icon={faSpotify} size="3x"/>
                                 <FontAwesomeIcon icon={faItunes} size="3x"/> */}
                                 <div className="top-row">
-                                    <a href=""><img src={require('../../Assets/apple_music.svg')}/></a>
-                                    <a href=""><img src={require('../../Assets/google_play.svg')}/></a>
-                                    <a href=""><img src={require('../../Assets/spotify.svg')}/></a>
+                                    <a href=""><img className="grow" src={this.state.white? require('../../Assets/apple_white.svg') : require('../../Assets/apple_music.svg')}/></a>
+                                    <a href=""><img className="grow" src={require('../../Assets/google_play.svg')}/></a>
+                                    <a href=""><img className="grow" src={require('../../Assets/spotify.svg')}/></a>
                                 </div>
                                 <div className="bottom-row">
-                                    <a href=""><img src={require('../../Assets/deezer.svg')}/></a>
-                                    <a href=""><img src={require('../../Assets/amazon_music.svg')}/></a>
+                                    <a href=""><img className="grow" src={this.state.white? require('../../Assets/deezer_white.svg') : require('../../Assets/deezer.svg')}/></a>
+                                    <a href=""><img className="grow" src={require('../../Assets/amazon_music.svg')}/></a>
                                 </div>
                             </div>
                         </div>

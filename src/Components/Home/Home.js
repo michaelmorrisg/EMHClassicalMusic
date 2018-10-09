@@ -17,7 +17,7 @@ class Home extends Component {
                 <BannerTitle />
                 <div className="difference-main">
                 <div className="difference-left">
-                <h2>Hear the difference</h2>
+                    <h2>Hear the Difference</h2>
                 </div>
                 <div className="difference-right">
                 <p>Something here about how the music is recorded differently. It's recorded like a movie score, so you can tell it's better and whatnot.
@@ -31,20 +31,20 @@ class Home extends Component {
                         <h2>Stream</h2>
                         <div className="banner-stream-icons-lower">
                                 <div className="top-row">
-                                    <a href=""><img src={require('../../Assets/apple_music.svg')}/></a>
-                                    <a href=""><img src={require('../../Assets/google_play.svg')}/></a>
-                                    <a href=""><img src={require('../../Assets/spotify.svg')}/></a>
+                                    <a href=""><img className="grow" src={require('../../Assets/apple_music.svg')}/></a>
+                                    <a href=""><img className="grow" src={require('../../Assets/google_play.svg')}/></a>
+                                    <a href=""><img className="grow" src={require('../../Assets/spotify.svg')}/></a>
                                 </div>
                                 <div className="bottom-row">
-                                    <a href=""><img src={require('../../Assets/deezer.svg')}/></a>
-                                    <a href=""><img src={require('../../Assets/amazon_music.svg')}/></a>
+                                    <a href=""><img className="grow" src={require('../../Assets/deezer.svg')}/></a>
+                                    <a href=""><img className="grow" src={require('../../Assets/amazon_music.svg')}/></a>
                                 </div>
                             </div>
                     </div>
                     <div className="albums-right">
                     <h2>Buy</h2>
                         <div>
-                            <a href=""><img className="bandcamp-logo" src={require('../../Assets/bandcamp.svg')}/></a>
+                            <a href=""><img className="bandcamp-logo grow" src={require('../../Assets/bandcamp.svg')}/></a>
                         </div>
                     </div>
                 </div>

@@ -1,10 +1,11 @@
 #nav-logo {
-    width: 75px;
+    width: 65px;
     height: auto;
 }
 .nav-main {
-    height: 10vh;
+    height: 7vh;
     padding-top: 10px;
+    font-family: 'Overpass Mono', monospace;
 }
 .nav-content {
     display: flex;

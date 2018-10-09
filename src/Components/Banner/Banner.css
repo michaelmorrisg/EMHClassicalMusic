@@ -2,12 +2,13 @@
     margin: 0px auto;
     margin-top: 10px;
     width: 100%;
-    height: 63vh;
+    height: 73vh;
 }
 .banner-content {
     width: 100%;
     margin: 0px auto;
     display: flex;
+    height: 100%;
 }
 .banner-stream-icons {
     display: flex;
@@ -108,7 +109,7 @@
 }
 #one {
     width: 100%;
-    height: 65vh;
+    height: 73vh;
     background-color: 	#303030;
     background-image: url('https://f4.bcbits.com/img/a2606312365_10.jpg');
     background-position: center;
@@ -117,7 +118,7 @@
 }
 #two {
     width: 100%;
-    height: 65vh;
+    height: 73vh;
     background-color: 	#303030;
     background-image: url('https://f4.bcbits.com/img/a2285530605_10.jpg');
     background-position: center;
@@ -126,7 +127,7 @@
 }
 #three {
     width: 100%;
-    height: 65vh;
+    height: 73vh;
     background-color: 	#303030;
     background-image: url('https://f4.bcbits.com/img/a3777569265_10.jpg');
     background-position: center;
@@ -135,7 +136,7 @@
 }
 #four {
     width: 100%;
-    height: 65vh;
+    height: 73vh;
     background-color: 	#303030;
     background-image: url('https://f4.bcbits.com/img/a1170039747_10.jpg');
     background-position: center;
@@ -144,7 +145,7 @@
 }
 #five {
     width: 100%;
-    height: 65vh;
+    height: 73vh;
     background-color: 	#303030;
     background-image: url('https://f4.bcbits.com/img/a1048958061_10.jpg');
     background-position: center;

@@ -1,33 +1,42 @@
 .contact-main {
-    height: 50vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     margin: 0px auto;
-    width: 100%;
-    margin-top: 10vh;
+    width: 80%;
+    margin-top: 5vh;
 }
 .contact-main input {
-    width: 80%;
-    margin-bottom: 10px;
+    width: 70%;
+    margin-bottom: 4vh;
     background: transparent;
     border: none;
     border-bottom: 2px solid black;
     outline: none;
+    font-size: 20px;
 }
 .contact-main button {
-    background-color: #dfb14b;
+    background-color: #53b85f;
     border: none;
     outline: none;
     width: 30%;
     margin: 0px auto;
     margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.contact-main button:hover {
+    background-color: #84d48e;
 }
 .contact-main textarea {
     background: transparent;
     border: 1px solid black;
+    font-size: 20px;
+    outline: none;
 }
 .contact-main textarea:focus, .contact-main input:focus {
-    background-color: rgba(255,255,255,.5)
+    background-color: rgba(255,255,255,.3)
 }
 .contact-form {
     display: flex;

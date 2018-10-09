@@ -17,15 +17,15 @@ class Nav extends Component{
                 <div className="nav-content">
                     <ul className="nav-left">
                         <Link to="/"><li>Home</li></Link>
-                        <li><a href="https://emhclassicalmusic.bandcamp.com/">Buy Albums</a></li>
+                        <li><a onClick={()=>window.pintrk('track', 'checkout')} href="https://emhclassicalmusic.bandcamp.com/">Buy Albums</a></li>
                         <li className="mouse" onMouseEnter={()=>this.setState({expanded: true})} onMouseLeave={()=>this.setState({expanded: false})}>Streaming</li>
                         <div className={this.state.expanded ? "streaming showing" : ' streaming hidden'} onMouseEnter={()=>this.setState({expanded: true})} onMouseLeave={()=>this.setState({expanded: false})}>
                             <ul>
-                                <li><a href="https://open.spotify.com/album/5Pkgb0P3Sh9TPl14IBsyE2">Spotify</a></li>
-                                <li><a href="https://itunes.apple.com/us/album/christmas-a-la-vivaldi/1434635644">iTunes</a></li>
-                                <li><a href="https://play.google.com/store/music/album/EMH_Classical_Music_Czech_Symphony_Chamber_Group_C?id=Bzq2myrbhfvdheb6i7b6a53yqfu&hl=en">Google Play</a></li>
-                                <li><a href="https://spotify.com">Deezer</a></li>
-                                <li><a href="https://spotify.com">Amazon Music</a></li>
+                                <li><a onClick={()=>console.log('clicked')} href="https://open.spotify.com/album/5Pkgb0P3Sh9TPl14IBsyE2">Spotify</a></li>
+                                <li><a onClick={()=>window.pintrk('track', 'lead')} href="https://itunes.apple.com/us/album/christmas-a-la-vivaldi/1434635644">iTunes</a></li>
+                                <li><a onClick={()=>window.pintrk('track', 'lead')} href="https://play.google.com/store/music/album/EMH_Classical_Music_Czech_Symphony_Chamber_Group_C?id=Bzq2myrbhfvdheb6i7b6a53yqfu&hl=en">Google Play</a></li>
+                                <li><a onClick={()=>window.pintrk('track', 'lead')} href="https://spotify.com">Deezer</a></li>
+                                <li><a onClick={()=>window.pintrk('track', 'lead')} href="https://spotify.com">Amazon Music</a></li>
                             </ul>
                         </div>
                     </ul>

@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
-import song from '../../Assets/song.mp3'
+import threeKings from '../../Assets/threeKings.mp3'
+import moldau from '../../Assets/moldau.mp3'
+import carmen from '../../Assets/carmen.mp3'
 import './SongList.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons'
@@ -16,8 +18,12 @@ class SongList extends Component {
             songThree: false
         }
 
-        this.testSong = song
-        this.songAudio = new Audio(this.testSong)
+        this.threeKings = threeKings
+        this.threeKingsAudio = new Audio(this.threeKings)
+        this.moldau = moldau
+        this.moldauAudio = new Audio(this.moldau)
+        this.carmen = carmen
+        this.carmenAudio = new Audio(this.carmen)
     }
     playSongOne(){
         this.setState({
@@ -42,7 +48,9 @@ class SongList extends Component {
     }
 
     render(){
-        this.state.songOne ? this.songAudio.play() : this.songAudio.pause()
+        this.state.songOne ? this.threeKingsAudio.play() : this.threeKingsAudio.pause()
+        this.state.songTwo ? this.moldauAudio.play() : this.moldauAudio.pause()
+        this.state.songThree ? this.carmenAudio.play() : this.carmenAudio.pause()
         return (
             <div className="song-main">
                 <div>

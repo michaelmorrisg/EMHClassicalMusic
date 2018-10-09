@@ -4,6 +4,7 @@ import './About.css'
 class About extends Component{
 
     render(){
+        window.pintrk('track', 'pagevisit');
         return(
             <div className="about-main">
                 <div className="about-content">

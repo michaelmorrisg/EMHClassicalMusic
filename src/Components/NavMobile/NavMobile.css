@@ -1,0 +1,28 @@
+.navmobile-main{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background-color: white;
+    height: 10vh;
+    top: 0;
+}
+.navmobile-content {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0px auto;
+}
+#navmobile-logo {
+    width: 60px;
+    height: auto;
+}
+
+
+@media(min-width: 501px){
+
+    .navmobile-main{
+        display: none;
+    }
+}

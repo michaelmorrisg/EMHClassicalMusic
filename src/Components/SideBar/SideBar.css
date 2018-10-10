@@ -1,0 +1,24 @@
+.sidebar-main {
+    height: 90vh;
+    width: 70%;
+    position: fixed;
+    top: 10vh;
+    z-index: 10;
+    background-color: white;
+    overflow: hidden;
+    left: 0;
+    transition: .3s;
+}
+
+.close-side  {
+    left: -71%;
+    transition: .3s;
+}
+
+.sidebar-content {
+    text-align: left;
+}
+.sidebar-content li {
+    padding-left: 25px;
+    margin-top: 10px;
+}

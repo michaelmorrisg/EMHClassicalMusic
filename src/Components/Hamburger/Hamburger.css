@@ -1,0 +1,12 @@
+.hamburger-main {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.hamburger-sub {
+    height: 4px;
+    background-color: gray;
+    width: 100%;
+}

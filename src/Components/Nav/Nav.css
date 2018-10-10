@@ -68,3 +68,9 @@ a {
 .streaming > ul > li {
     line-height: 1.75em;
 }
+@media(max-width: 500px){
+
+    .nav-main {
+        display: none;
+    }
+}

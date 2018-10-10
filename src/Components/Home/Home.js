@@ -10,6 +10,15 @@ import {faGooglePlay, faItunes, faSpotify, faBandcamp} from '@fortawesome/free-b
 
 class Home extends Component {
 
+    leadTrack(){
+        window.fbq('track', 'Lead')
+        window.pintrk('track', 'lead')
+    }
+    purchaseTrack(){
+        window.fbq('track', 'Purchase');
+        window.pintrk('track', 'checkout')
+    }
+
     render(){
         return(
             <div className="home-main">
@@ -31,20 +40,20 @@ class Home extends Component {
                         <h2>Stream</h2>
                         <div className="banner-stream-icons-lower">
                                 <div className="top-row">
-                                    <a href=""><img className="grow" src={require('../../Assets/apple_music.svg')}/></a>
-                                    <a href=""><img className="grow" src={require('../../Assets/google_play.svg')}/></a>
-                                    <a href=""><img className="grow" src={require('../../Assets/spotify.svg')}/></a>
+                                    <a onClick={()=>this.leadTrack()} href=""><img className="grow" src={require('../../Assets/apple_music.svg')}/></a>
+                                    <a onClick={()=>this.leadTrack()} href=""><img className="grow" src={require('../../Assets/google_play.svg')}/></a>
+                                    <a onClick={()=>this.leadTrack()} href=""><img className="grow" src={require('../../Assets/spotify.svg')}/></a>
                                 </div>
                                 <div className="bottom-row">
-                                    <a href=""><img className="grow" src={require('../../Assets/deezer.svg')}/></a>
-                                    <a href=""><img className="grow" src={require('../../Assets/amazon_music.svg')}/></a>
+                                    <a onClick={()=>this.leadTrack()} href=""><img className="grow" src={require('../../Assets/deezer.svg')}/></a>
+                                    <a onClick={()=>this.leadTrack()} href=""><img className="grow" src={require('../../Assets/amazon_music.svg')}/></a>
                                 </div>
                             </div>
                     </div>
                     <div className="albums-right">
                     <h2>Buy</h2>
                         <div>
-                            <a href=""><img className="bandcamp-logo grow" src={require('../../Assets/bandcamp.svg')}/></a>
+                            <a onClick={()=>this.purchaseTrack()} href=""><img className="bandcamp-logo grow" src={require('../../Assets/bandcamp.svg')}/></a>
                         </div>
                     </div>
                 </div>

@@ -15,6 +15,15 @@ class Banner extends Component {
         }
     }
 
+    leadTrack(){
+        window.fbq('track', 'Lead')
+        window.pintrk('track', 'lead')
+    }
+    purchaseTrack(){
+        window.fbq('track', 'Purchase');
+        window.pintrk('track', 'checkout')
+    }
+
 
     render(){
 
@@ -33,19 +42,19 @@ class Banner extends Component {
                                 <FontAwesomeIcon icon={faSpotify} size="3x"/>
                                 <FontAwesomeIcon icon={faItunes} size="3x"/> */}
                                 <div className="top-row">
-                                    <a href=""><img className="grow" src={this.state.white? require('../../Assets/apple_white.svg') : require('../../Assets/apple_music.svg')}/></a>
-                                    <a href=""><img className="grow" src={require('../../Assets/google_play.svg')}/></a>
-                                    <a href=""><img className="grow" src={require('../../Assets/spotify.svg')}/></a>
+                                    <a onClick={()=>this.leadTrack()} href=""><img className="grow" src={this.state.white? require('../../Assets/apple_white.svg') : require('../../Assets/apple_music.svg')}/></a>
+                                    <a onClick={()=>this.leadTrack()} href=""><img className="grow" src={require('../../Assets/google_play.svg')}/></a>
+                                    <a onClick={()=>this.leadTrack()} href=""><img className="grow" src={require('../../Assets/spotify.svg')}/></a>
                                 </div>
                                 <div className="bottom-row">
-                                    <a href=""><img className="grow" src={this.state.white? require('../../Assets/deezer_white.svg') : require('../../Assets/deezer.svg')}/></a>
-                                    <a href=""><img className="grow" src={require('../../Assets/amazon_music.svg')}/></a>
+                                    <a onClick={()=>this.leadTrack()} href=""><img className="grow" src={this.state.white? require('../../Assets/deezer_white.svg') : require('../../Assets/deezer.svg')}/></a>
+                                    <a onClick={()=>this.leadTrack()} href=""><img className="grow" src={require('../../Assets/amazon_music.svg')}/></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="banner-buy">
-                        <a href="https://emhclassicalmusic.bandcamp.com/"><div className="buy-content">
+                        <a onClick={()=>this.purchaseTrack()} href="https://emhclassicalmusic.bandcamp.com/"><div className="buy-content">
                             <h1>Buy Album</h1>
                         </div></a>
                                 {/* <FontAwesomeIcon icon={faBandcamp} size="3x"/> */}

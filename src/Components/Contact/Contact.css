@@ -56,3 +56,13 @@
 .special-font {
     font-family: 'Overpass Mono', monospace;
 }
+@media(max-width: 500px){
+
+        .contact-main {
+            width: 100%;
+        }
+        .contact-background {
+            width: 90%;
+        }
+
+}

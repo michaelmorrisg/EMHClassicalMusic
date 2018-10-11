@@ -8,7 +8,7 @@ class License extends Component {
             <div className="licensing-main">
                 <div className="licensing-content">
                     <div className="licensing-left">
-                        <h1 className="page-header">Licensing</h1>
+                        <h1 className="page-header" id="small-title">Licensing</h1>
                     </div>
                     <div className="licensing-right">
                         <p>For licensing, please contact Warner/Chappell Production Music</p>

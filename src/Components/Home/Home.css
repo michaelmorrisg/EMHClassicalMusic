@@ -77,7 +77,7 @@
 
 @media(max-width: 500px){
     .home-main {
-        height: 350vh;
+        height: 390vh;
     }
     .banner-title {
         height: 22vh;
@@ -103,11 +103,35 @@
     }
     .albums-main {
         flex-direction: column;
+        height: 120vh;
     }
     .albums-left {
         width: 100%;
+        height: 100vh;
     }
     .albums-right {
         width: 100%;
+    }
+    .top-row {
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+    }
+    .bottom-row {
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        margin-top: 50px;
+        width: 100%;
+        align-items: center;
+    }
+    .bottom-row > a {
+        margin: 0px auto;
+    }
+    .top-row > a, .bottom-row > a {
+        margin-bottom: 25px;
+    }
+    .banner-stream-icons-lower{
+        height: 50vh;
     }
 }

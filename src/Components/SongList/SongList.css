@@ -35,6 +35,20 @@
 .italic {
     font-style: italic;
 }
+
+@media(max-width: 1050px){
+    .song-main {
+        height: 40vh;
+    }
+    .song-main > div {
+        justify-content: center;
+    }
+}
+@media(max-width: 650px){
+    .song-main {
+        height: 50vh;
+    }
+}
 @media(max-width: 500px){
     .song-main {
         height: 30vh;

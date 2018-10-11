@@ -29,7 +29,7 @@ class App extends Component {
     return (
       <div className="App">
         <Nav />
-        <NavMobile toggleMenu={this.toggleMenu} />
+        <NavMobile openMenu={this.state.openMenu} toggleMenu={this.toggleMenu} />
         <SideBar openMenu={this.state.openMenu}/>
         <Backdrop toggleMenu={this.toggleMenu} openMenu={this.state.openMenu}/>
         {routes}

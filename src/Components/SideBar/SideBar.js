@@ -3,6 +3,12 @@ import './SideBar.css'
 import {Link} from 'react-router-dom';
 
 class SideBar extends Component {
+    constructor(){
+        super()
+        this.state = {
+            expandStream: false
+        }
+    }
 
     leadTrack(){
         window.fbq('track', 'Lead')
@@ -19,8 +25,8 @@ class SideBar extends Component {
                 <div className="sidebar-content">
                         <Link to="/"><li>Home</li></Link>
                         <li><a onClick={()=>this.purchaseTrack()} href="https://emhclassicalmusic.bandcamp.com/">Buy Albums</a></li>
-                        <li>Streaming</li>
-                        <div>
+                        <li onClick={()=>this.setState({expandStream: !this.state.expandStream})}>Streaming</li>
+                        <div className={this.state.expandStream ? "stream-showing stream" : "stream"}>
                             <ul>
                                 <li><a onClick={()=>this.leadTrack()} href="https://open.spotify.com/album/5Pkgb0P3Sh9TPl14IBsyE2">Spotify</a></li>
                                 <li><a onClick={()=>this.leadTrack()} href="https://itunes.apple.com/us/album/christmas-a-la-vivaldi/1434635644">iTunes</a></li>

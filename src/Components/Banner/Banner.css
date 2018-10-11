@@ -152,3 +152,18 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+@media(max-width: 500px){
+    .banner-left{
+        display: none;
+    }
+    .banner-right {
+        width: 100%;
+        margin-top: 10vh;
+    }
+    #one, #two, #three, #four, #five {
+        height: 55vh;
+    }
+    .banner-title {
+        height: 500vh;
+    }
+}

@@ -35,3 +35,11 @@
 .italic {
     font-style: italic;
 }
+@media(max-width: 500px){
+    .song-main > div {
+        width: 95%; 
+    }
+    .song-main > div > p {
+        text-align: center;
+    }
+}

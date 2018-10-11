@@ -17,8 +17,22 @@
 
 .sidebar-content {
     text-align: left;
+    margin-top: 30px;
 }
 .sidebar-content li {
     padding-left: 25px;
-    margin-top: 10px;
+    margin-top: 15px;
+    font-size: 30px;
+}
+.stream {
+    padding-left: 30px;
+    /* display: none; */
+    height: 0px;
+    transition: .2s;
+    overflow: hidden;
+}
+.stream-showing {
+    display: block;
+    height: 36vh;
+    transition: .2s;
 }

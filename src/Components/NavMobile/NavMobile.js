@@ -26,7 +26,7 @@ class NavMobile extends Component{
             <div className="navmobile-main">
                 <div className="navmobile-content">
                     <img id="navmobile-logo" src="http://emhclassicalmusic.com/wp-content/uploads/2018/06/EMH-new-logo_2.jpg" />
-                    <Hamburger toggleMenu={this.props.toggleMenu} />
+                    <Hamburger openMenu={this.props.openMenu} toggleMenu={this.props.toggleMenu} />
                 </div>
             </div>
         )

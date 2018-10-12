@@ -3,6 +3,7 @@ import "./Footer.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faShoppingCart, faSearch } from '@fortawesome/free-solid-svg-icons'
 import {faFacebookSquare,faPinterest, faYoutube} from '@fortawesome/free-brands-svg-icons'
+import axios from 'axios'
 
 class Footer extends Component {
 

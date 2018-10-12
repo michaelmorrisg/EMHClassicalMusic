@@ -55,7 +55,8 @@
     }
     .song-main > div {
         width: 95%; 
-
+        justify-content: flex-start;
+        margin-top: 25px;
     }
     .song-main > div > p {
         text-align: center;

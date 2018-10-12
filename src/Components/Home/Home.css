@@ -25,13 +25,15 @@
     justify-content: center;
 }
 .difference-left > h2 {
-    margin-top: 2vh;
+    /* margin-top: 2vh; */
 }
 .difference-right {
     width: 60%;
     font-size: 25px;
     height: 100%;
     background-color: #B8B8B8;
+    display: flex;
+    align-items: center;
 }
 .difference-right > p {
     font-family: 'Overpass', sans-serif;
@@ -39,13 +41,6 @@
     padding-left: 30px;
     margin-top: 10px;
     border-left: 2px solid black;
-}
-.banner-title {
-    font-family: 'Overpass', sans-serif;
-    height: 18vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 .albums-main {
     display: flex;
@@ -79,13 +74,17 @@
         height: 300vh;
     }
 }
+@media(max-width: 1001px){
+    .home-main {
+        margin-top: 10vh;
+    }
+}
 
 @media(max-width: 500px){
     .home-main {
-        height: 390vh;
-    }
-    .banner-title {
-        height: 22vh;
+        height: 410vh;
+        margin-top: 0;
+        min-height: 2200px;
     }
     .difference-main {
         height: 50vh;

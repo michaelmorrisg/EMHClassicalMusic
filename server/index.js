@@ -11,8 +11,21 @@ app.listen(3020, ()=>{
     console.log('listening on port 3020')
 })
 
+app.use(express.static( `${__dirname}/../build` ) );
+
 
 //Endpoints//
+
+app.get('/api/firstsong', (req,res)=>{
+    res.sendFile(__dirname + '/threeKings.mp3')
+})
+app.get('/api/secondsong', (req,res)=>{
+    res.sendFile(__dirname + '/moldau.mp3')
+})
+app.get('/api/thirdsong', (req,res)=>{
+    res.sendFile(__dirname + '/carmen.mp3')
+})
+
 app.post('/api/sendEmail',(req,res)=>{
 
     const nodemailer = require('nodemailer')

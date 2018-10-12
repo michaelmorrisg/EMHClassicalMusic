@@ -60,6 +60,7 @@
 
         .contact-main {
             width: 100%;
+            min-height: 470px;
         }
         .contact-background {
             width: 90%;

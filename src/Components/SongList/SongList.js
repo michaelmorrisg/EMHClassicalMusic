@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
-import threeKings from '../../Assets/threeKings.mp3'
-import moldau from '../../Assets/moldau.mp3'
-import carmen from '../../Assets/carmen.mp3'
+// import threeKings from '../../Assets/threeKings.mp3'
+// import moldau from '../../Assets/moldau.mp3'
+// import carmen from '../../Assets/carmen.mp3'
 import './SongList.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons'
@@ -18,14 +18,17 @@ class SongList extends Component {
             songThree: false
         }
 
-        this.threeKings = threeKings
-        this.threeKingsAudio = new Audio(this.threeKings)
-        this.moldau = moldau
-        this.moldauAudio = new Audio(this.moldau)
-        this.carmen = carmen
-        this.carmenAudio = new Audio(this.carmen)
+        // this.threeKings = threeKings
+        // this.threeKingsAudio = new Audio(this.threeKings)
+        // this.moldau = moldau
+        // this.moldauAudio = new Audio(this.moldau)
+        // this.carmen = carmen
+        // this.carmenAudio = new Audio(this.carmen)
     }
     playSongOne(){
+        if(!this.threeKingsAudio){
+        this.threeKingsAudio = new Audio('/api/firstsong')
+        }
         this.setState({
             songTwo: false,
             songThree: false,
@@ -33,6 +36,9 @@ class SongList extends Component {
         })
     }
     playSongTwo(){
+        if(!this.moldauAudio){
+            this.moldauAudio = new Audio('/api/secondsong')
+        }
         this.setState({
             songOne: false,
             songThree: false,
@@ -40,6 +46,9 @@ class SongList extends Component {
         })
     }
     playSongThree(){
+        if(!this.carmenAudio){
+            this.carmenAudio = new Audio('/api/thirdsong')
+        }
         this.setState({
             songTwo: false,
             songOne: false,
@@ -48,9 +57,9 @@ class SongList extends Component {
     }
 
     render(){
-        this.state.songOne ? this.threeKingsAudio.play() : this.threeKingsAudio.pause()
-        this.state.songTwo ? this.moldauAudio.play() : this.moldauAudio.pause()
-        this.state.songThree ? this.carmenAudio.play() : this.carmenAudio.pause()
+        if(this.threeKingsAudio){this.state.songOne ? this.threeKingsAudio.play() : this.threeKingsAudio.pause()}
+        if(this.moldauAudio){this.state.songTwo ? this.moldauAudio.play() : this.moldauAudio.pause()}
+        if(this.carmenAudio){this.state.songThree ? this.carmenAudio.play() : this.carmenAudio.pause()}
         return (
             <div className="song-main">
                 <div>

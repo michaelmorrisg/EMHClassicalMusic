@@ -102,6 +102,11 @@
 }
 .banner-title {
     font-size: 60px;
+    font-family: 'Overpass', sans-serif;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .banner-icons {
     display: flex;
@@ -164,6 +169,10 @@
         height: 58vh;
     }
     .banner-title {
-        height: 500vh;
+        min-height: 140px;
+    }
+    .banner-title > h1 {
+        margin-top: 10px;
+        font-size: 50px;
     }
 }

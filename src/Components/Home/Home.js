@@ -29,9 +29,7 @@ class Home extends Component {
                     <h2>Hear the Difference</h2>
                 </div>
                 <div className="difference-right">
-                <p>Something here about how the music is recorded differently. It's recorded like a movie score, so you can tell it's better and whatnot.
-                    Listen to the tracks below and hear the dang difference.
-                </p>
+                <p>We record our classical albums using the same methods as modern movie scores. This brings out stunning detail and clarity you don’t hear in traditional classical recordings. But don’t just take our word for it- listen yourself and hear the difference.</p>
                 </div>
                 </div>
                 <SongList />

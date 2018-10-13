@@ -19,6 +19,7 @@ p {
     .about-main {
         margin-top: 12vh;
         height: 220vh;
+        min-height: 1470px;
     }
     .about-content {
         width: 95%;

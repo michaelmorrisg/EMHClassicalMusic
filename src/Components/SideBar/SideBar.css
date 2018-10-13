@@ -35,4 +35,5 @@
     display: block;
     height: 36vh;
     transition: .2s;
+    overflow-y: scroll;
 }

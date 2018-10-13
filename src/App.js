@@ -23,7 +23,6 @@ class App extends Component {
     this.setState({
       openMenu: !this.state.openMenu
     })
-    console.log(this.state.openMenu)
   }
   render() {
     return (

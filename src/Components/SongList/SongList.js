@@ -27,7 +27,6 @@ class SongList extends Component {
     }
     playSongOne(){
         if(!this.threeKingsAudio){
-            console.log('loading')
         this.threeKingsAudio = new Audio('/api/firstsong')
         }
         this.setState({
@@ -35,7 +34,6 @@ class SongList extends Component {
             songThree: false,
             songOne: !this.state.songOne
         })
-        console.log('done loading')
     }
     playSongTwo(){
         if(!this.moldauAudio){

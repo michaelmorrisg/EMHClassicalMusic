@@ -38,7 +38,7 @@ class Nav extends Component{
                             </ul>
                         </div>
                     </ul>
-                    <img id="nav-logo" src="http://emhclassicalmusic.com/wp-content/uploads/2018/06/EMH-new-logo_2.jpg" />
+                    <img id="nav-logo" src={require("../../Assets/logo.jpg")} />
                     <ul className="nav-right">
                         <Link to="/licensing"><li>Licensing</li></Link>
                         <li><a href="https://www.youtube.com/user/EMHClassicalMusic">YouTube</a></li>

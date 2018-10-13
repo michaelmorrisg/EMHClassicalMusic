@@ -47,18 +47,18 @@
 @media(max-width: 650px){
     .song-main {
         height: 50vh;
-        min-height: 200px;
+        min-height: 250px;
     }
 }
 @media(max-width: 500px){
     .song-main {
         height: 30vh;
-        min-height: 200px;
+        min-height: 250px;
     }
     .song-main > div {
         width: 95%; 
         justify-content: flex-start;
-        margin-top: 25px;
+        margin-top: 75px;
     }
     .song-main > div > p {
         text-align: center;

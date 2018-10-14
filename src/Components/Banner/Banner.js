@@ -55,7 +55,7 @@ class Banner extends Component {
                     </div>
                     <div className="banner-buy">
                         <a onClick={()=>this.purchaseTrack()} href="https://emhclassicalmusic.bandcamp.com/"><div className="buy-content">
-                            <h1>Buy Album</h1>
+                            <h1>Buy Albums</h1>
                         </div></a>
                                 {/* <FontAwesomeIcon icon={faBandcamp} size="3x"/> */}
                     </div>

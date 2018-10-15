@@ -51,7 +51,7 @@ class Home extends Component {
                     <div className="albums-right">
                     <h2>Buy</h2>
                         <div>
-                            <a onClick={()=>this.purchaseTrack()} href=""><img className="bandcamp-logo grow" src={require('../../Assets/bandcamp.svg')}/></a>
+                            <a onClick={()=>this.purchaseTrack()} href="https://emhclassicalmusic.bandcamp.com/"><img className="bandcamp-logo grow" src={require('../../Assets/bandcamp.svg')}/></a>
                         </div>
                     </div>
                 </div>

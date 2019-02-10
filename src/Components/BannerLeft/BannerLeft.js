@@ -43,7 +43,7 @@ class BannerLeft extends Component {
                 </div>
                 <div className="banner-buy">
                     <a onClick={()=>this.purchaseTrack()} href="https://emhclassicalmusic.bandcamp.com/album/christmas-a-la-vivaldi"><div className="buy-content">
-                        <h1>Get Christmas A La Vivaldi</h1>
+                        <h1>Buy Now</h1>
                     </div></a>
                             {/* <FontAwesomeIcon icon={faBandcamp} size="3x"/> */}
                 </div>

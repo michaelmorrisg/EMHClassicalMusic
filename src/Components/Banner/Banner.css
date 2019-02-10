@@ -50,8 +50,8 @@
 .banner-buy {
     width: 100%;
     height: calc(30% + 2px);
-    /* background-color: #B8B8B8; */
-    background-color: #98130b;
+    background-color: #B8B8B8;
+    /* background-color: #98130b; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,7 +120,7 @@
     width: 100%;
     height: 73vh;
     background-color: 	#303030;
-    background-image: url('https://f4.bcbits.com/img/a2606312365_10.jpg');
+    background-image: url('./../../Assets/EMH_Beethoveen_SympNo7.jpg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;

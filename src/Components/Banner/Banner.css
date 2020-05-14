@@ -1,6 +1,5 @@
 .banner-main{
     margin: 0px auto;
-    margin-top: 10px;
     width: 100%;
     height: 73vh;
 }
@@ -115,6 +114,15 @@
 .banner-icons {
     display: flex;
     justify-content: space-between;
+}
+#zero {
+    width: 100%;
+    height: 73vh;
+    background-color: 	#303030;
+    background-image: url('./../../Assets/EMH_Beethoveen_PianoTrio7.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 #one {
     width: 100%;

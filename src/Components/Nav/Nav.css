@@ -3,9 +3,9 @@
     height: auto;
 }
 .nav-main {
-    height: 7vh;
-    padding-top: 10px;
+    height: 75px;
     font-family: 'Overpass Mono', monospace;
+    position: relative;
 }
 .nav-content {
     display: flex;

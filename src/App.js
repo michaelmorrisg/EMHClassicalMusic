@@ -27,12 +27,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Nav />
-        <NavMobile openMenu={this.state.openMenu} toggleMenu={this.toggleMenu} />
-        <SideBar openMenu={this.state.openMenu}/>
-        <Backdrop toggleMenu={this.toggleMenu} openMenu={this.state.openMenu}/>
-        {routes}
-        <Footer />
+        <div className="content">
+          <Nav />
+          <NavMobile openMenu={this.state.openMenu} toggleMenu={this.toggleMenu} />
+          <SideBar openMenu={this.state.openMenu}/>
+          <Backdrop toggleMenu={this.toggleMenu} openMenu={this.state.openMenu}/>
+          {routes}
+        </div>
+        <div className="footer">
+          <Footer />
+        </div>
       </div>
     );
   }

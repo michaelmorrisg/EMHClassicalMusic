@@ -25,6 +25,9 @@ class Banner extends Component {
                     <BannerLeft />
                 <div className="banner-right">
                     <Carousel autoPlay={true} infiniteLoop={true} showIndicators={false} showArrows={false} showStatus={false} showThumbs={false} stopOnHover={false} transitionTime={0} interval={4000}>
+                    <div id='zero'>
+
+                    </div>
                     <div id='one'>
 
                     </div>

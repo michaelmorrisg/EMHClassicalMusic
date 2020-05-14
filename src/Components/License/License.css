@@ -1,7 +1,6 @@
 .licensing-main {
-    height: 70vh;
     width: 100%;
-    margin-top: 10vh;
+    height: 75vh;
 }
 .licensing-content {
     width: 100%;
@@ -35,11 +34,6 @@
 }
 
 @media(max-width: 500px){
-
-    .licensing-main {
-        margin-top: 10vh;
-        height: 110vh;
-    }
     .licensing-content{
         flex-direction: column;
         height: 75vh;

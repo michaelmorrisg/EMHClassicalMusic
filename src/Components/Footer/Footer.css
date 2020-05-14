@@ -6,6 +6,19 @@
     display: flex;
     justify-content: center;
 }
+.bandcamp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-main > div {
+    width: 33%;
+}
+.footer-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .footer-main > div > p {
     margin-top: 5px;
     font-size: 14px;

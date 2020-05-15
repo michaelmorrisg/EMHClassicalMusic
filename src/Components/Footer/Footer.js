@@ -21,7 +21,7 @@ class Footer extends Component {
                         <a href="https://www.youtube.com/user/EMHClassicalMusic"><FontAwesomeIcon className="grow nav-icon" icon={faYoutube} size="2x" color='white'/></a>
                     </div>
                 </div>    
-                <div>
+                <div className="footer-right">
 
                 </div>
             </div>

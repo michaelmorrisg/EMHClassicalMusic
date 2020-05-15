@@ -50,5 +50,9 @@
     #small-title {
         margin-bottom: 0;
     }
+    .licensing-main {
+        margin-top: 75px;
+        height: 100vh;
+    }
 
 }

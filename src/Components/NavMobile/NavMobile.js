@@ -24,7 +24,9 @@ class NavMobile extends Component {
         return (
             <div
                 className={`navmobile-main ${
-                    window.location.hash.includes('tour-2022') ? 'hidden' : ''
+                    window.location.pathname.includes('tour-2022')
+                        ? 'hidden'
+                        : ''
                 }`}
             >
                 <div className="navmobile-content">

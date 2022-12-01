@@ -17,7 +17,7 @@ app.use(express.static(`${__dirname}/../build`));
 //Endpoints//
 
 app.get('/*', function (req, res) {
-    res.sendFile(path.join(__dirname, 'build', 'index.html'));
+    res.sendFile(path.join(`${__dirname}/../`, 'build', 'index.html'));
 });
 
 app.get('/api/firstsong', (req, res) => {

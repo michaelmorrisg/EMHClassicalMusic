@@ -16,10 +16,6 @@ app.use(express.static(`${__dirname}/../build`));
 
 //Endpoints//
 
-app.get('/*', function (req, res) {
-    res.sendFile(path.join(`${__dirname}/../`, 'build', 'index.html'));
-});
-
 app.get('/api/firstsong', (req, res) => {
     res.sendFile(__dirname + '/threeKings.mp3');
 });
@@ -53,4 +49,8 @@ app.post('/api/sendEmail', (req, res) => {
             console.log('Email sent: ' + info.response);
         }
     });
+});
+
+app.get('/*', function (req, res) {
+    res.sendFile(path.join(`${__dirname}/../`, 'build', 'index.html'));
 });

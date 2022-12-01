@@ -6,6 +6,9 @@
     display: flex;
     justify-content: center;
 }
+.footer-main.hidden {
+    display: none;
+}
 .bandcamp {
     display: flex;
     justify-content: center;
@@ -30,8 +33,9 @@
     width: 80%;
 }
 
-@media(max-width: 500px){
-    .bandcamp, .footer-right {
+@media (max-width: 500px) {
+    .bandcamp,
+    .footer-right {
         display: none;
     }
 

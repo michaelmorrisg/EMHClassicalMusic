@@ -1,0 +1,48 @@
+.tour-main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(196, 156, 104, 0.3);
+}
+
+.image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.christmas-image {
+    width: 80%;
+    max-width: 500px;
+    margin-top: 45px;
+}
+
+.christmas-image-sub {
+    width: 75%;
+    max-width: 450px;
+    margin-top: 20px;
+}
+
+.button-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.button-wrapper button {
+    width: 80%;
+    max-width: 350px;
+    margin-top: 30px;
+    padding: 24px;
+    font-size: 28px;
+    border-radius: 2rem;
+    border: none;
+    background-color: #a30f1a;
+    color: white;
+    cursor: pointer;
+}
+
+.button-wrapper button:active {
+    background-color: #770b18;
+}

@@ -1,15 +1,15 @@
-import React from 'react'
-import {Switch, Route} from 'react-router-dom'
-import Home from "./Components/Home/Home"
-import About from "./Components/About/About"
-import License from "./Components/License/License"
-
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Home from './Components/Home/Home';
+import About from './Components/About/About';
+import License from './Components/License/License';
+import Tour from './Components/Tour/Tour';
 
 export default (
-    <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/licensing" component={License} />
-        
-    </Switch>
-)
+    <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/licensing" element={<License />} />
+        <Route path="/tour-2022" element={<Tour />} />
+    </Routes>
+);

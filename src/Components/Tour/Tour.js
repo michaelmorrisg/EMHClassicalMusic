@@ -14,12 +14,15 @@ export default function Tour() {
                 />
             </div>
             <div className="button-wrapper">
-                <button onClick={() => console.log('nothin')}>Kanab</button>
-                <button onClick={() => console.log('nothin')}>Richfield</button>
-                <button onClick={() => console.log('nothin')}>Helper</button>
-                <button onClick={() => console.log('nothin')}>
+                <a>Kanab</a>
+                <a onClick={() => console.log('nothin')}>Richfield</a>
+                <a onClick={() => console.log('nothin')}>Helper</a>
+                <a
+                    href="/files/Sing_a_longs.pdf"
+                    download={'Christmas Sing-a-longs'}
+                >
                     Sing Along Lyrics
-                </button>
+                </a>
             </div>
         </div>
     );

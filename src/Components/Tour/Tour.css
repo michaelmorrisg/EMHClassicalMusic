@@ -30,7 +30,7 @@
     margin-top: 32px;
 }
 
-.button-wrapper button {
+.button-wrapper a {
     width: 80%;
     max-width: 350px;
     margin-top: 30px;
@@ -43,6 +43,6 @@
     cursor: pointer;
 }
 
-.button-wrapper button:active {
+.button-wrapper a:active {
     background-color: #770b18;
 }

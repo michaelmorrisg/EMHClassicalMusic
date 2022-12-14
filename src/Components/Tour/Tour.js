@@ -14,9 +14,24 @@ export default function Tour() {
                 />
             </div>
             <div className="button-wrapper">
-                <a>Kanab</a>
-                <a onClick={() => console.log('nothin')}>Richfield</a>
-                <a onClick={() => console.log('nothin')}>Helper</a>
+                <a
+                    href="/files/kanab_program.pdf"
+                    download={'Kanab Concert Program'}
+                >
+                    Kanab
+                </a>
+                <a
+                    href="/files/richfield_program.pdf"
+                    download={'Richfield Concert Program'}
+                >
+                    Richfield
+                </a>
+                <a
+                    href="/files/helper_program.pdf"
+                    download={'Helper Concert Program'}
+                >
+                    Helper
+                </a>
                 <a
                     href="/files/Sing_a_longs.pdf"
                     download={'Christmas Sing-a-longs'}

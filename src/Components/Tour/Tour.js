@@ -26,10 +26,7 @@ export default function Tour() {
                 >
                     Richfield
                 </a> */}
-                <a
-                    href="/files/2023_program.pdf"
-                    download={'Helper Concert Program'}
-                >
+                <a href="/files/2023_program.pdf" download={'Concert Program'}>
                     Concert Program
                 </a>
                 <a

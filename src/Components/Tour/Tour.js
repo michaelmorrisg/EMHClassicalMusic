@@ -14,7 +14,7 @@ export default function Tour() {
                 />
             </div>
             <div className="button-wrapper">
-                <a
+                {/* <a
                     href="/files/kanab_program.pdf"
                     download={'Kanab Concert Program'}
                 >
@@ -25,12 +25,12 @@ export default function Tour() {
                     download={'Richfield Concert Program'}
                 >
                     Richfield
-                </a>
+                </a> */}
                 <a
-                    href="/files/helper_program.pdf"
+                    href="/files/2023_program.pdf"
                     download={'Helper Concert Program'}
                 >
-                    Helper
+                    Concert Program
                 </a>
                 <a
                     href="/files/Sing_a_longs.pdf"
